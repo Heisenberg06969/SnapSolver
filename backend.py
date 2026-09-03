@@ -29,7 +29,7 @@ async def solve_question(request: Request):
     data = await request.json()
     base64_image = data.get("image")
     
-    prompt = "Please read the question in this image and provide a clear, concise answer or explanation, if it is a MCQ then just tell the option letter (like 'A' is the answer) and also if the image is unclear you can tell the user that the question is unclear and to send the image again ('the image is unclear, please send it again')"
+    prompt = "Please read the question in this image and provide a clear, concise answer or explanation, tell the Question first and then the answer and also if the image is unclear you can tell the user that the question is unclear and to send the image again ('the image is unclear, please send it again')"
     
     messages = [
         {
