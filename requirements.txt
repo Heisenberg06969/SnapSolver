@@ -1,9 +1,0 @@
-fastapi
-uvicorn
-groq
-python-dotenv
-python-multipart
-
-chromadb
-sentence-transformers
-PyPDF2
