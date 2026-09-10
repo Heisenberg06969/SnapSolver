@@ -31,9 +31,7 @@ async def solve_question(request: Request):
     
     prompt = """This is for my Semester 1 English Literature exam. The questions will be related to these kinds of topics: Shakespeare's Sonnet 18, Robert Frost, Aristotle's Rhetoric, Martin Luther King's 'I Have a Dream', William Blake's 'The Tyger', Ted Hughes, Sarojini Naidu, Nissim Ezekiel, Bertrand Russell, Swami Vivekananda, or Vijay Tendulkar's 'Silence! The Court is in Session'. 
     
-    Please read the question in the image and find the answer within this specific region of English Literature. Provide a clear, academic answer. If it is an MCQ, just tell me the correct option letter. If the image is unclear, tell me to send it again."""    
-    Please read the question in the image and find the answer within this specific region of English Literature. Provide a clear, academic answer. If it is an MCQ, just tell me the correct option letter. If the image is unclear, tell me to send it again.
-    
+    Please read the question in the image and find the answer within this specific region of English Literature. Provide a clear, academic answer. If it is an MCQ, just tell me the correct option letter. If the image is unclear, tell me to send it again."""        
     messages = [
         {
             "role": "user",
